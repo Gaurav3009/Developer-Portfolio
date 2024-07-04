@@ -8,7 +8,13 @@ module.exports = {
       colors: {
         'clr-primary' : "#111f44",
         'clr-secondary' : "#5adfcb",
-        'clr-tertiary' : "#194760"
+        'clr-second' : "#5adfcb",
+        'clr-tertiary' : "#194760",
+      },
+      spacing : {
+        "144" : "40rem",
+        "176" : "48rem",
+        "192" : "52rem"
       }
     },
   },

@@ -4,6 +4,7 @@ import Experience from './Experience';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import Resume from './files/Resume.pdf';
 import Project from './Project';
+import Writings from './Writings';
 
 function Info() {
   return (
@@ -14,6 +15,7 @@ function Info() {
             <a href = {Resume} target = "_blank">View Full Resume <span><ArrowOutwardIcon sx = {{fontSize: 15}}/></span></a>
         </div>
         <Project/>
+        <Writings/>
     </div>
   )
 }

@@ -15,11 +15,10 @@ function Intro() {
           <p className = "text-slate-400 font-normal mt-3 lg:pr-32">I build scalable backend code engaging websites giving the user best experience.</p>
         </div>
         <div className = "mt-4">
-            <span ><GitHubIcon sx = {{color: "grey"}}/></span>
-            <span className = "ml-4"><LinkedInIcon sx = {{color: "grey"}}/></span>
-            <span className = "ml-4"><XIcon sx = {{color: "grey"}}/></span>
-            <span className = "ml-4"><InstagramIcon sx = {{color: "grey"}}/></span>
-            <span></span>
+            <a href = "https://github.com/Gaurav3009" target = "_blank" rel = "noopener" ><GitHubIcon sx = {{color: "grey", fontSize : 30}}/></a>
+            <a href = "https://www.linkedin.com/in/gaurav-30-pandey/" target = "_blank" rel = "noopener" className = "ml-5 sm:ml-5 md:ml-5  lg:ml-5"><LinkedInIcon sx = {{color: "grey", fontSize : 30}}/></a>
+            <a href = "https://x.com/GauravP96789777" target = "_blank" rel = "noopener" className = "ml-5 sm:ml-5 md:ml-5 lg:ml-5"><XIcon sx = {{color: "grey", fontSize : 30}}/></a>
+            <a href = "https://www.instagram.com/gauravisonline/" target = "_blank" rel = "noopener" className = "ml-5 sm:ml-5 md:ml-5 lg:ml-5"><InstagramIcon sx = {{color: "grey", fontSize : 30}}/></a>
         </div>
     </div>
   )
